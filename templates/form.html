@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2773/2773699.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+          margin : 0;
+          padding: 0;
+        }
+        body, html {
+          height: 100%;
+          width: 100%;
+          }
+       body{
+         background-image: linear-gradient(45deg, #d5aeae, #f3f38a);
+         background-size: cover;
+        background-repeat: no-repeat;
+       }
+      .font{
+        font-family: 'Raleway', sans-serif;
+        color: #fefeff;
+      }
+      #form{
+        position: relative;
+        left: 35em;
+        width: inherit;
+      }
+      .input1{
+        border-radius: 25px;
+        padding: 1em;
+        margin-top: 5%;
+        margin-right: 5%;
+        margin-left: 5%;
+        border: none;
+        background-color: #e1e7e7;
+      }
+      .btn{
+        position: relative;
+        left: 8em;
+        top: 3em;
+        border-radius: 25px;
+        border: 0px;
+        padding: 1em;
+        width: 12%;
+        background-color: #94e9a5e6;
+      }
+      .btn {
+      -webkit-border-radius: 20;
+      -moz-border-radius: 20;
+      border-radius: 20px;
+      font-family: 'Raleway', sans-serif;
+      color: #ffffff;
+      font-size: 20px;
+      background: #78d686;
+      padding: 16px 29px 16px 29px;
+      text-decoration: none;
+      display: inline-block;
+      position: absolute;
+      left: auto;
+      right: 15em;
+      top: 23em;
+    }
+
+    .btn:hover {
+      background: #66bd8f;
+      text-decoration: none;
+    }
+    </style>
+
+
+    <title>Yoga Classes</title>
+</head>
+<body>
+    <div id=form>
+      <h3 class="font">Enroll Yourself Now!!!</h3>
+      <form action="#" method="post" name="myform">
+          <div id="name">
+              <input type="text" class="input1" name="username" placeholder="Name" required><b><span class="formerror"> </span></b><br>
+          </div>
+          <div id="age">
+              <input type="text" class="input1" name="age" placeholder="Age" required><b><span class="formerror"> </span></b><br>
+          </div>
+          <div id="email">
+              <input type="email" class="input1" name="email" placeholder="Email"><b><span class="formerror"> </span></b><br>
+          </div>
+          <div style="margin-left:4em;">
+              <label class="font">Choose the timings</label>
+              <select class="input1" name="ftimings">
+                  <option value="6 A.M - 7 A.M">6 A.M - 7 A.M</option>
+                  <option value="7 A.M - 8 A.M">7 A.M - 8 A.M</option>
+                  <option value="8 A.M - 9 A.M">8 A.M - 9 A.M</option>
+                  <option value="5 P.M - 6 P.M">5 P.M - 6 P.M</option>
+              </select>
+              <input class="btn" type="submit" value="Submit" style="left: 5em;top: 27em;width: 6em;">
+          </div>
+      </form>
+  </div>
+</body>
+</html>

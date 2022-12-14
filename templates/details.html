@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2773/2773699.png">
+    <title>The Yoga Classes</title>
+    <style>
+      body, html {
+        height: 100%;
+        width: 100%;
+        }
+      body{
+       background-image: linear-gradient(45deg, #d5aeae, #f3f38a);
+      background-repeat: no-repeat;
+     }
+     .font{
+        font-family: 'Raleway', sans-serif;
+        text-align:center;
+        color: #fefeff;
+      }
+      .btn{
+        position: relative;
+        left: 8em;
+        top: 3em;
+        border-radius: 25px;
+        border: 0px;
+        padding: 1em;
+        width: 12%;
+        background-color: #94e9a5e6;
+      }
+      .btn {
+      -webkit-border-radius: 20;
+      -moz-border-radius: 20;
+      border-radius: 20px;
+      font-family: 'Raleway', sans-serif;
+      color: #ffffff;
+      font-size: 20px;
+      background: #78d686;
+      padding: 16px 29px 16px 29px;
+      text-decoration: none;
+      display: inline-block;
+      position: absolute;
+      left: auto;
+      right: 15em;
+      top: 23em;
+    }
+    </style>
+  </head>
+  <body>
+    <h1 class="font" style="color: #746a6a;font-size: 3.5em;">Your enrollment details are mentioned under...</h1>
+	<h1 class="font">Name : {{usr}}</h1>
+    <h1 class="font">Age : {{age}}</h1>
+    <h1 class="font">Email : {{email}}</h1>
+    <h1 class="font">Timings : {{timings}}</h1>
+    <table>
+      <tr>
+        <a class="btn" style="left: 25%; text-align:center;" href="form.html">Go back</a>
+      </tr>
+      <tr>
+        <a class="btn" href="payment.html">Complete Payment</a>
+      </tr>
+    </table>
+  </body>
+</html>
